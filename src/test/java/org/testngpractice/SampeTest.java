@@ -10,7 +10,7 @@ public class SampeTest extends BaseClass {
 	@Test(retryAnalyzer = FailureRerun.class)
 	private void tc1_1() {
 
-		browserLaunch("chrome");
+		browserLaunch("firefox");
 		loadUrl("https://www.facebook.com/");
 		//Assert.assertTrue(false);
 	}
